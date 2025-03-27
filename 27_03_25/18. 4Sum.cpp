@@ -8,7 +8,6 @@ class Solution {
             vector<vector<int>> ans; //sc->O(N)
             
             if (n < 4) return ans; 
-    
             sort(nums.begin(), nums.end()); // n*logn
     
             for (int i = 0; i < n - 3; i++) {
