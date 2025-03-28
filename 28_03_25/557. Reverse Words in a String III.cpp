@@ -13,10 +13,7 @@ class Solution {
                 reverse(word.begin(),word.end());
                 ans+= (word +" ");
             }
-            return ans.substr(0,ans.size()-1);
-    
-            
+            return ans.substr(0,ans.size()-1);    
         }
-            
-        
+                
     };
