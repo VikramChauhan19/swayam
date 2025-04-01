@@ -1,11 +1,12 @@
 #include<string>
+#include<iostream>
 #include<sstream>
 #include<deque>
 
 using namespace std;
 class Solution {
     public:
-        bool areSentencesSimilar(string sentence1, string sentence2) {// TC = O(n) sp = O(1)
+        bool areSentencesSimilar(string sentence1, string sentence2) {// TC = O(n) sp = O(n)
             if(sentence2.size()> sentence1.size()){
                 swap(sentence1,sentence2); //o(1)
             }
@@ -35,3 +36,11 @@ class Solution {
             
         }
     };
+    int main(){
+        Solution s1;
+        string t1  =  "djfsjdfjs";
+        string t2 = "jsjfjsfksjdf";
+        bool b = s1.areSentencesSimilar(t1,t2);
+        cout<<b;
+
+    }
