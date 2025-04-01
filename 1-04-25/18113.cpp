@@ -2,7 +2,6 @@
 #include<iostream>
 #include<sstream>
 #include<deque>
-
 using namespace std;
 class Solution {
     public:
