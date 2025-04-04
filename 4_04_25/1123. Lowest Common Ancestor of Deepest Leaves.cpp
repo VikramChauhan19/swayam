@@ -19,8 +19,7 @@ class Solution {
             m[root] = d;
             depth(root->left,d+1);
             depth(root->right,d+1);
-        }
-    
+        } 
         TreeNode* LCS(TreeNode* root){
             if(!root) return nullptr;
             if(m[root] == maxd) return root;
