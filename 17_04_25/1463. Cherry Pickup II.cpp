@@ -32,7 +32,6 @@ class Solution {
             n = grid[0].size();
             memset(dp,-1,sizeof(dp));
             return solveR(grid,0,0,n-1);
-    
-            
+          
         }
     };
